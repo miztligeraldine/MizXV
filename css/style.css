@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 
+@font-face {
+    font-family: "Playwrite CU", cursive;
+  src: url('fonts/PlaywriteCU.ttf') format('ttf'),
+    url('fonts/PlaywriteCU.ttf') format('ttf');
+  font-style: normal;
+  font-weight: normal;
+}
 
 * {
     margin: 0;
@@ -129,8 +136,8 @@ p.schedule {
     font-size: 1.55rem;
 }
 
-h1 {
-  font-family: "Playwrite CU", cursive;
+h1 {	
+	font-family: "Playwrite CU", cursive;
     font-weight: 400;
     font-style: normal;  
     font-size: 55.0pt; 
