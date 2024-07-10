@@ -164,7 +164,7 @@ document.getElementById('rsvp-form').addEventListener('submit', function(event) 
 const audio = document.getElementById("myaudio");
 const playButton = document.getElementById('playButton');
 const playIcon = document.getElementById('playIcon');
-audio.volume = 0.2;
+audio.volume = 0.4;
 
 playButton.addEventListener('click', () => {
   if (audio.paused) {
